@@ -1,0 +1,77 @@
+body {
+  background: rgb(245, 245, 245);
+  color: rgb(8, 41, 92);
+  font-size: 25px;
+  font-family: "Orelega One";
+}
+h1 {
+  font-family: Courier;
+  color: rgb(8, 41, 92);
+  font-weight: lighter;
+  font-size: 30px;
+}
+h3 {
+  font-family: Courier;
+  color: rgb(8, 41, 92);
+  font-weight: lighter;
+  font-size: 40px;
+}
+#banner {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px rgb(96, 96, 96);
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.articles {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(8, 41, 92);
+  background-color: rgb(228, 210, 191);
+  padding: 10px;
+}
+.link-medium:hover {
+  color: rgb(96, 96, 96);
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
